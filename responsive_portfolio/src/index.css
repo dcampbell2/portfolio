@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair:opsz,wght@5..1200,400;5..1200,600&family=Red+Hat+Mono:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #010026;
+  @apply text-white;
+}
